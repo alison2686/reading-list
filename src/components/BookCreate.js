@@ -18,7 +18,12 @@ const BookCreate = ({ onCreate }) => {
       <h3>Add a Book</h3>
       <form onSubmit={handleSubmit}>
         <label>Title</label>
-        <input className='input' value={title} onChange={handleChange} />
+        <input
+          className='input'
+          value={title}
+          onChange={handleChange}
+          placeholder='enter book title'
+        />
         <button className='button'>Create!</button>
       </form>
     </div>
