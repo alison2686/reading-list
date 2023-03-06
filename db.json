@@ -1,6 +1,7 @@
 {
   "books": [
     {
+      "title": "new book",
       "id": 1
     },
     {
